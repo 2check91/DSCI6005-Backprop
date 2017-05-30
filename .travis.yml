@@ -1,0 +1,6 @@
+language: c
+sudo: required
+services:
+- docker
+script:
+- docker run -e GH_TOKEN -e TRAVIS_BUILD_NUMBER -e GITHUB_ID='YOUR_GITHUB_ID_HERE' embanner/dsci6005:backprop
