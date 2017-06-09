@@ -3,4 +3,7 @@ sudo: required
 services:
 - docker
 script:
-- docker run -e GH_TOKEN -e TRAVIS_BUILD_NUMBER -e GITHUB_ID='YOUR_GITHUB_ID_HERE' embanner/dsci6005:backprop
+- docker run -e GH_TOKEN -e TRAVIS_BUILD_NUMBER -e GITHUB_ID='2check91' embanner/dsci6005:backprop
+env:
+  global:
+    secure: GPVqcdXRtgrbk0b6BpkZXinPSBhcj4y370dyaVnyiEQlbsRIO7jjtet+RNzlJOR3MGTdf5bKp0lNi9kbBMrOcexNBVuuSI15ZnkPcSidc8glUJvdYav51yiLi5y8qw4MYpbpJvNFP1Xn+K0EO11i84HnJjQf2JFWMFmPpeeccOweJZanyrsSzp/+Wenc3VO2+TuMMJpKX/078HeCvzWV8XrflzhRkpAIB4ZTntczN7gtId7qLloGJRQQBoIV/JTCxT3NAGvlSmtxulmKpRdzR0mq+Kj+M4JUbKSIwOwSusmkmLLAUKazlymkQzMB1PpKa7CvEFhT+MjD6zFbhutJhIsD0WSFHTF7I8TCGjNOuEoJIl+ElH53gzOPjY8AHheQwVBaAY7KPupmiuoPq+lVwpXVt4J/eRsdY6RRg6Kd3r8tnJN6ZQIsNMnZ2zKoG2JZyYNgd1vVnJNC8LeyKVt+C4SiTPt6RWPw3CE5r0ZfKKqrRXyi7KRiOQHWlyoQWcXLtZjB/1IglEz78VR87+5hYcyavKt5FEMuKvtv38eXJs8IjcB3/l3sw+4JyhObTlCTU+mRnBkUkrtrOBNR7fK8sx4HSP4Tiw+1FJSpXEPFnTDv1BRLwjnfcgUtpjbUDVVyIAB6vcb22LTyzy0Uh1y7z8Zf0jbn2NWTu4SK1ABUZrk=
